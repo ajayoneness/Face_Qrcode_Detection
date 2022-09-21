@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main page</title>
+</head>
+<body>
+
+    <h1>Face Detection </h1>
+    <form method="post"  enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Name " required><br><br>
+        <input type="text" name="enrol" placeholder="Enrollment No. " required><br><br>
+        <p><b>Notes : </b> face is visible in the image </p>
+        <input type="file" name="img" required><br><br>
+        <input type="submit" required>
+
+
+    </form>
+
+</body>
+</html>
