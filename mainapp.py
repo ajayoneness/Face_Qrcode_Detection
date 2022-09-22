@@ -1,3 +1,6 @@
+
+#use ESP32 bord for this project
+
 import face_recognition
 import numpy as np
 import os
